@@ -1,0 +1,244 @@
+html {
+}
+body {
+    margin:0;
+   /* padding: 45px 5% 1% 5%;*/
+   padding: 1%;
+}
+
+h2 {
+
+}
+
+.maxwidth {
+    max-width: 1100px;
+    display: block;
+    margin: 0 auto;
+    padding: 3% 5%;
+  }
+
+/* Typography */
+* {
+/* font-family: 'Source Sans Pro', sans-serif; */
+font-family: 'Varela Round', sans-serif;
+letter-spacing: .5px;
+color:#383838;
+}
+
+/* * a:hover {
+    opacity: .5;
+} */
+
+.introtext {
+
+    font-size: 32px;
+    padding-top: 55px;
+}
+
+.introtext1 {
+
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.introsub {
+    font-size: 27px;
+    border-left-style:
+    solid; border-left-color
+    :dodgerblue;
+    padding: 3% 0 3% 7%;
+}
+
+.introsub1 {
+    font-size: 24px;
+}
+
+
+.h2_ {
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    color:dodgerblue;
+}
+/* MOBILE & IPAD RESPONSIVENESS!!! */
+
+@media (max-width: 1025px) {
+    .introtext {
+        font-size: 40px;
+        letter-spacing: -.3px;
+    }
+
+    .introtext1 {
+        font-size: 40px;
+        letter-spacing: -.3px;
+    }
+}
+
+@media (max-width: 500px) {
+    .introsub {
+        font-size: 20px;
+        border-left-style: none;
+        padding: 0;
+    }
+
+    .introsub1 {
+        font-size: 20px;
+    }
+
+    .introtext1 {
+        padding-top: 55px;
+    }
+
+    .introtext {
+        font-size: 28px;
+    }
+
+    .myimage {
+        display: none;
+    }
+
+    .navi1 {
+        display: none;
+    }
+
+    .sociallinks a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+}
+/* Image Treatment */
+.l-box {
+    padding: .5em;
+}
+
+.pure-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Dividing Line */ 
+hr {
+    opacity: .3;
+}
+
+/* Main Navigation */
+.navi1 {
+    text-align: left;   
+}
+
+
+.navi1 a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.navi1 a:hover {
+    opacity: .5;
+}
+
+
+
+
+.navi {
+    text-align: right;
+    
+}
+
+.navi a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navi a:hover {
+    color:dodgerblue;
+}
+/* footer */
+
+.madewithlove {
+    text-align: center;
+    opacity: .3;
+}
+
+/* button */
+
+.button {
+    border: 1.5px solid #383838;;
+    border-radius: 5px;
+    color:#383838;;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+  }
+
+  .button:hover {
+      color:dodgerblue;
+      border: 1.5px solid dodgerblue;
+  }
+
+  .textlink a:hover {
+    color:dodgerblue;
+  }
+
+/* overlay creds to w3school*/ 
+.container {
+    position: relative;
+    display: inline-block;
+    
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+
+  }
+
+  .text {
+    font-size: 27px;
+    letter-spacing: .8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: inline-block;
+  }
+
+
+/* Dash Creds to Andres Hernandez */
+ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+  }
+
+  .rightalign {
+      text-align: right;
+  }
+
+  /* social links treatment */
+  .sociallinks a {
+      text-decoration: none;
+  }
+
+  .sociallinks a:hover {
+opacity: .5;
+}
